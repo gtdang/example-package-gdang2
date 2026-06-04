@@ -6,10 +6,12 @@ build-backend = "hatchling.build"
 
 [project] 
 name = "example_package_gdang2" 
-version = "0.1.0" 
+version = ["version"]
 dependencies = ["numpy"]
 readme="README.md"
 
 [project.optional-dependencies]
 test = ["pytest"]
 
+[tool.hatch]
+version.path = "src/example_package_gdang2/__init__.py"
