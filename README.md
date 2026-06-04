@@ -1,6 +1,6 @@
-# Example Package YOUR USERNAME HERE
+# Example Package
 
-`example-package-YOUR-USERNAME` is a simple Python library that contains a single function for rescaling arrays.
+`example-package-gdang2` is a simple Python library that contains a single function for rescaling arrays.
 
 ## Installation
 
@@ -14,7 +14,7 @@ pip install .
 
 ```python
 import numpy as np
-from example_package_YOUR_USERNAME_HERE.rescale import rescale
+from example_package_gdang2.rescale import rescale
 
 # rescales over 0 to 1
 rescale(np.linspace(0, 100, 5))
